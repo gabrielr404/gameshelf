@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #141c1c;
+    font-family: "Noto Sans", sans-serif;
+    color: beige;
+}
+
+.cima {
+    background-image: url("assets\imagens\paginainicial\fundogames.jpg")
+}
+
+.cima-menu {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    list-style: none;
+}
+
+.container-form {
+    position: relative;
+    display: inline-block;
+}
+
+.container-form i {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.form-label {
+    padding: 8px;
+    padding-right: 10px;
+    border: 1px;
+    border-style: double;
+    border-color: #3c444c;
+    border-radius: 5px;
+    background-color: #242c34;
+    color: beige;
+    font-size: 17px;
+}
+
+.form-label:focus {
+    outline: none;
+}
+
+.navegar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 30px;
+}
