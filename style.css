@@ -13,7 +13,9 @@ body {
 }
 
 .header-geral-container {
-    background-image: url("assets\imagens\paginainicial\fundogames.jpg");
+    background-image: url('/assets/imagens/paginainicial/fundogames.jpg');
+    background-size: cover;
+    padding-bottom: 300px;
     width: 100%;
 }
 
