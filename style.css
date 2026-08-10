@@ -12,8 +12,9 @@ body {
     color: beige;
 }
 
-.cima {
-    background-image: url("assets\imagens\paginainicial\fundogames.jpg")
+.header-geral-container {
+    background-image: url("assets\imagens\paginainicial\fundogames.jpg");
+    width: 100%;
 }
 
 .cima-menu {
@@ -21,6 +22,11 @@ body {
     flex-direction: row;
     gap: 30px;
     list-style: none;
+}
+
+.cima-menu a {
+    text-decoration: none;
+    color: beige;
 }
 
 .container-form {
@@ -52,6 +58,8 @@ body {
 }
 
 .navegar {
+    padding-top: 30px;
+    padding-right: 30px;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
